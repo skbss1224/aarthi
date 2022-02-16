@@ -1,2 +1,0 @@
-# aarthi
-django
