@@ -18,9 +18,7 @@ from django.urls import path
 from company import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     path('',views.home),
-    path('home/',views.home),
-    path('product/',views.product),
+    path('register',views.register)
     
 ]
